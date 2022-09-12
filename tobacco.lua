@@ -7,7 +7,7 @@ minetest.register_node("farming:tobacco_seed", {
 	inventory_image = "farming_tobacco_seed.png",
 	wield_image = "farming_tobacco_seed.png",
 	drawtype = "signlike",
-	groups = {seed = 1, snappy = 3, attached_node = 1}, -- hit the books on these parameters
+	groups = {seed = 1, snappy = 3, attached_node = 1},
 	paramtype = "light",
 	paramtype2 = "wallmounted",
 	walkable = false,
