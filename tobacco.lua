@@ -19,7 +19,7 @@ minetest.register_node("farming:tobacco_seed", {
 })
 
 -- harvested tobacco leaf
-minetest.register_craftitem("farming:tobacco_leaf", {
+minetest.register_craftitem("farming:tobacco_leaf"), {
 	description = S("Tobacco Leaf"),
 	inventory_image = "farming_tobacco_leaf.png",
 })
@@ -28,7 +28,7 @@ minetest.register_craftitem("farming:tobacco_leaf", {
 minetest.register_craft({
 	type = "cooking",
 	output = "farming:tobacco_leaf_cured",
-	input = "farming:tobacco_leaf",
+	recipe = "farming:tobacco_leaf",
 	cooktime = 20,
 })
 
