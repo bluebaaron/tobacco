@@ -68,7 +68,7 @@ minetest.register_node{"farming:tobacco_1", table.copy(def))
 
 -- stage 2
 def.tiles = {"farming_tobacco_2.png"}
-minetest.register_node("farming:hemp_2", table.copy(def))
+minetest.register_node("farming:tobacco_2", table.copy(def))
 
 -- stage 3
 def.tiles = {"farming_tobacco_3.png"}
